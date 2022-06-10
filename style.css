@@ -1,0 +1,72 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  width:50px;
+  height: 30px;
+  border: none;
+  margin: 2px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.generate,.show{
+    width:80px;
+  height:35px; 
+  background-color:green;
+  color: aliceblue;
+  font-weight: 600;
+}
+#ans1{
+    display: none;
+}
+.container{
+    min-width: 400px;
+    min-height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: center;
+
+    background-color: antiquewhite;
+    
+}
+.mat2{
+    margin-left: 10px;
+}
+#plus{
+    display: none;
+    margin-left: 10px;
+    font-size: 26px;
+    color: green;
+}
+#show{
+    display: none;
+}
+.matrix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sb{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
